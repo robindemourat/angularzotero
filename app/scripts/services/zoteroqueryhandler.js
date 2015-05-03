@@ -23,7 +23,7 @@ angular.module('zoteroaccessApp')
 				return callback(d);
 			})
 			.error(function(e){
-				console.error('HTTP error :', e);
+				$log.error('HTTP error :', e);
 			});
   	};
 
