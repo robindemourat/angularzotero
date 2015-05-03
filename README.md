@@ -2,6 +2,9 @@
 
 A set of two angular modules (ZoteroQueryMaker, ZoteroQueryHandler) that handle API calls to Zotero in order to retrieve library's content.
 
+ZoteroQueryMaker manages a query object used to specify API call parameters and options.
+ZoteroQueryHandler handles the API calls and their responses for controller.
+
 ##Howto
 
 ##Get a Zotero API key
