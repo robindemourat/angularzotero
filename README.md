@@ -1,12 +1,26 @@
-# zoteroaccess
+# angularzotero (WIP)
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+A set of two angular modules (ZoteroQueryMaker, ZoteroQueryHandler) that handle API calls to Zotero in order to retrieve library's content.
 
-## Build & development
+ZoteroQueryMaker manages a query object used to specify API call parameters and options.
+ZoteroQueryHandler handles the API calls and their responses for controller.
 
-Run `grunt` for building and `grunt serve` for preview.
+##Howto
 
-## Testing
+##Get a Zotero API key
 
-Running `grunt test` will run the unit tests with karma.
+1. create a zotero account if you haven't one
+2. go to https://www.zotero.org/settings/keys > create new private key > copy the retrieved key
+
+##Install the application
+
+1. go to your terminal and type "git clone https://github.com/robindemourat/angularzotero.git" or click on "Download Zip" on right of this screen
+2. in the terminal, cd to the retrieved repository and hit "bower install" (bower needed)
+2. In the retrieve repository, go to app/scripts/controllers/main.js and, at line 14, replace 'Your API key here' with your private API key
+3. from terminal, hit "python -m SimpleHTTPServer"
+4. good to go !
+
+##More info
+
+Doc to be improved.
+Zotero API info : https://www.zotero.org/support/dev/web_api/v3/basics
