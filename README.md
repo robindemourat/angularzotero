@@ -15,7 +15,7 @@ ZoteroQueryHandler handles the API calls and their responses for controller.
 ##Install the application
 
 1. go to your terminal and type "git clone https://github.com/robindemourat/angularzotero.git" or click on "Download Zip" on right of this screen
-2. in the terminal, cd to the retrieved repository and hit "bower install" (bower needed)
+2. in the terminal, cd to the retrieved repository and hit "cd app && bower install" (bower needed)
 2. In the retrieve repository, go to app/scripts/controllers/main.js and, at line 14, replace 'Your API key here' with your private API key
 3. from terminal, hit "python -m SimpleHTTPServer"
 4. good to go !
