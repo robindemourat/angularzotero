@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc service
- * @name zoteroaccessApp.QueryBuilder
+ * @name zoteroaccessApp.ZoteroQueryBuilder
  * @description
  * # QueryBuilder
  * Service in the zoteroaccessApp.

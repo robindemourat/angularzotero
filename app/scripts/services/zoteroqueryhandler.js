@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc service
- * @name zoteroaccessApp.ZoteroQuery
+ * @name zoteroaccessApp.ZoteroQueryHandler
  * @description
  * # ZoteroQuery
- * Service in the zoteroaccessApp.
+ * Factory in the zoteroaccessApp.
  */
 angular.module('zoteroaccessApp')
   .factory('ZoteroQueryHandler', function ($http, $log) {
