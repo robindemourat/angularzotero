@@ -17,14 +17,14 @@ angular.module('zoteroaccessApp')
 
   	var getResults = function(query, callback){
   		$log.info("sending request for ",query);
-		$http
-			.get(query)
-			.success(function(d){
-				return callback(d);
-			})
-			.error(function(e){
-				$log.error('HTTP error :', e);
-			});
+  		$http
+  			.get(query)
+  			.success(function(d){
+  				return callback(d);
+  			})
+  			.error(function(e){
+  				$log.error('HTTP error :', e);
+  			});
   	};
 
   	var buildFinalQuery = function(query, key, options){

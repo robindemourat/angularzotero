@@ -24,3 +24,4 @@ ZoteroQueryHandler handles the API calls and their responses for controller.
 
 Doc to be improved.
 Zotero API info : https://www.zotero.org/support/dev/web_api/v3/basics
+Warning : this method exposes your API key on the front-end side. This means that one could access your library content with it, and this means that you shouldn't allow write access in your API key settings with this method. 
