@@ -8,7 +8,7 @@
  * Service in the zoteroaccessApp.
  */
 angular.module('zoteroaccessApp')
-  .service('ZoteroQueryBuilder', function () {
+  .factory('ZoteroQueryBuilder', function () {
 
   		var query = {};
 
