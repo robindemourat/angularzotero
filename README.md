@@ -5,14 +5,14 @@ A set of two angular modules (ZoteroQueryMaker, ZoteroQueryHandler) that handle 
 ZoteroQueryMaker manages a query object used to specify API call parameters and options.
 ZoteroQueryHandler handles the API calls and their responses for controller.
 
-##Howto
+## Howto
 
-##Get a Zotero API key
+## Get a Zotero API key
 
 1. create a zotero account if you haven't one
 2. go to https://www.zotero.org/settings/keys > create new private key > copy the retrieved key
 
-##Install the application
+## Install the application
 
 1. go to your terminal and type "git clone https://github.com/robindemourat/angularzotero.git" or click on "Download Zip" on right of this screen
 2. in the terminal, cd to the retrieved repository and hit "cd app && bower install" (bower needed)
@@ -20,8 +20,10 @@ ZoteroQueryHandler handles the API calls and their responses for controller.
 3. from terminal, hit "python -m SimpleHTTPServer"
 4. good to go !
 
-##More info
+## More info
 
 Doc to be improved.
+
 Zotero API info : https://www.zotero.org/support/dev/web_api/v3/basics
+
 Warning : this method exposes your API key on the front-end side. This means that one could access your library content with it, and this means that you shouldn't allow write access in your API key settings with this method. 
